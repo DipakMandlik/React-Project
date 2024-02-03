@@ -24,7 +24,7 @@ const App = () => {
     <BrowserRouter>
       
       <Navbar1/>
-      
+      <Home/>
       <Routes>
         <Route path='' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
